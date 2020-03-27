@@ -1,9 +1,11 @@
+const data = {
+  user: null
+};
+
 export default function (Compoment) {
   return {
     data() {
-      return {
-        user: null
-      };
+      return data;
     },
     methods: {
       login(email, password) {
@@ -20,7 +22,7 @@ export default function (Compoment) {
     },
     render(createElement) {
       const { user, login, logout } = this;
-      return createElement(Compoment, { props: { user, login, logout } });
+      return createElement(Compoment, { props: { user, login, logout, ...this.$attrs } });
     }
   };
 }
