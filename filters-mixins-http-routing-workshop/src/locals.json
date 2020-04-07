@@ -1,0 +1,24 @@
+{
+  "technologies": [
+    {
+      "_id": "a",
+      "name": "javascript",
+      "displayName": "JavaScript"
+    },
+    {
+      "_id": "b",
+      "name": "csharp",
+      "displayName": "C#"
+    },
+    {
+      "_id": "c",
+      "name": "java",
+      "displayName": "Java"
+    },
+    {
+      "_id": "d",
+      "name": "python",
+      "displayName": "Python"
+    }
+  ]
+}
